@@ -26,6 +26,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 Here's a latex example: $$a^2 + b^2 = c^2$$
 
-{% marginnote margin1 %} This should be nice. {% endmarginnote %}
 
 
