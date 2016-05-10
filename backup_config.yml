@@ -10,7 +10,7 @@ title: λlabs
 email: lambda@labs.com
 description: > # this means to ignore newlines until "baseurl:"
         A blog-like conversation about programming languages, communication
-        and overthinking the general human condition.
+        and overthinking the human condition.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lambda-labs.github.com" # the base hostname & protocol for your site
 twitter_username: lambda-labs
