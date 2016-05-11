@@ -68,7 +68,7 @@ class GraphvizTag < Liquid::Block
   def style
     {
       graph: {
-        bgcolor: "#tfffff8",
+        bgcolor: "#fffff8",
         fontcolor: "#111111",
         fontname: "Helvetica",
         fontsize: "11"
