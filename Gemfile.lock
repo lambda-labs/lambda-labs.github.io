@@ -1,9 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.4.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     colorator (0.1)
+    fastimage (2.0.0)
+      addressable (~> 2)
     ffi (1.9.10)
     hitimes (1.2.2)
     jekyll (3.1.2)
@@ -42,9 +45,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  fastimage
   jekyll
   jekyll-compose
   jekyll-paginate
 
 BUNDLED WITH
-   1.11.2
+   1.12.3

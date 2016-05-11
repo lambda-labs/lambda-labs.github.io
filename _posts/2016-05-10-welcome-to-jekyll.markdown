@@ -18,6 +18,17 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+{% graphviz "testgraph.png" %}
+    digraph {
+            a -> b[label="0.2",weight="0.2"];
+            a -> c[label="0.4",weight="0.4"];
+            c -> b[label="0.6",weight="0.6"];
+            c -> e[label="0.6",weight="0.6"];
+            e -> e[label="0.1",weight="0.1"];
+            e -> b[label="0.7",weight="0.7"];
+        }
+{% endgraphviz %}
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
